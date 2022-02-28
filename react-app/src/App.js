@@ -1,30 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Test from './components/Test'
+import Subject from './components/Subject'
 import { Component } from 'react';
 
 
-class Test extends Component{
-  render(){
-    return(
-      <nav>
-        <ul>
-          <li><a href="1.html">html</a></li>
-          <li><a href="1.html">shit</a></li>
-        </ul>
-      </nav>
-    )
-  }
-}
-class Subject extends Component{
-  render(){
-    return(
-      <header>
-        <h1>{this.props.title}</h1>
-        {this.props.sub}
-      </header>
-    )
-  }
-}
+
 class App extends Component{
   render(){
     return(
